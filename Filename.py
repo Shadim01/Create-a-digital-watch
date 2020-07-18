@@ -10,13 +10,13 @@ root.size
 
 
 def clock():
-    Strr = strftime("%H:%M:%S:%p ")
+    Strr = strftime("%a/%H:%M:%S:%p ")
     design.config(text = Strr)
     design.after(100,clock)
 
 
 
-design = Label(root, font = ('Arial', 120, 'bold'),
+design = Label(root, font = ('Arial', 80, 'bold'),
 			background = 'Yellow',
 			foreground = 'Black'
                 )
