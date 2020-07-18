@@ -1,12 +1,13 @@
+# Digitalwatch
 import sys
+# importing whole module
 from tkinter import *
 from tkinter.ttk import *
 from time import strftime
 import time
+# creating tkinter window 
 root = Tk()
 root.title("A Digital Clock")
-root.tk_focusNext()
-
 
 def clock():
     Strr = strftime("%a/%H:%M:%S:%p ")
@@ -14,7 +15,7 @@ def clock():
     design.after(100,clock)
 
 
-
+# Design the label widget so that clock will look like more attractive 
 design = Label(root, font = ('Arial',70, 'bold'),
 			background = 'Yellow',
 			foreground = 'Black'
