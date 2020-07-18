@@ -6,7 +6,6 @@ import time
 root = Tk()
 root.title("A Digital Clock")
 root.tk_focusNext()
-root.size
 
 
 def clock():
@@ -16,7 +15,7 @@ def clock():
 
 
 
-design = Label(root, font = ('Arial', 80, 'bold'),
+design = Label(root, font = ('Arial',70, 'bold'),
 			background = 'Yellow',
 			foreground = 'Black'
                 )
